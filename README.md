@@ -3,7 +3,7 @@ Java based Photo Album of Randomly Drawn Pictures
 
 The Photo Album MVC system consists of three main parts:
     1. The Model, which follows the IModel interface and is implemented in the concrete
-       PhotoAlbumModel class. Refactoring done from Homework 8 includes adding a helper Snapshot
+       PhotoAlbumModel class. Refactoring done from previous version includes adding a helper Snapshot
        class and changing the storage of the shapes currently on screen from a Hashmap to an array.
        The reason for this change was to make the rendering of shapes easier. Having the shapes in a
        list allows the model to keep the order in which the shapes were created, so that if two
